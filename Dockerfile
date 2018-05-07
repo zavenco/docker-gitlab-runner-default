@@ -15,6 +15,7 @@ RUN apk add --update \
         jq \
         lftp \
         wget \
+        zip \
     && rm -rf /var/cache/apk/*
 
 CMD ["/bin/bash"]
