@@ -10,11 +10,10 @@ RUN apk add --update \
         git \
         jq \
         lftp \
-        ssh \
+        openssh-client \
         wget \
         jq \
         lftp \
-        ssh \
         wget \
     && rm -rf /var/cache/apk/*
 

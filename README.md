@@ -6,5 +6,5 @@ Lighweight default image for Gitlab Runner with docker executor, based on Alpine
 - git
 - jq
 - lftp
-- ssh
+- openssh-client
 - wget
