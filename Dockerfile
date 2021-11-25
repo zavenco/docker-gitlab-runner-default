@@ -1,7 +1,7 @@
-FROM alpine
+FROM alpine:3.15.0
 
 LABEL vendor="Zaven Sp. z o.o."
-LABEL version="1.0.0"
+LABEL version="1.1.0"
 LABEL description="Default image for Gitlab Runner with docker executor"
 
 RUN apk add --update \
